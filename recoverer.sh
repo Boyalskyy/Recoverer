@@ -13,5 +13,5 @@ if [ -n "$process_list" ]; then
 else
   echo "Process with name '$process_name' wasn't found."
   echo "Start process ..."
-  ./tg_bot
+  ./tg_bot > output.txt
 fi
